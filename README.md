@@ -35,7 +35,7 @@ And final layer is of 6 node because of 6 class and activation function of 'Soft
 Then Fit Our Model using mini-batch Sochastic Gradient Descent using rmsprop optimizer.
 Here we use the data Augmentation Concept to increase our data by zooming,shearing,rescaling and fliping.
 
-After this we train our data on gpu i get good result of above 80%;
+After this we train our data on gpu i get good result of above 85%;
 
 (2: Using BottleNeck Feature)
 
@@ -58,6 +58,4 @@ And final layer is of 12 node because of 12 class and activation function of 'So
 and in this we dont train only first 25 layers of our model and after this we re-train all the layer of VGC16 and our neural network model.
 the last convolutional block of the VGG16 model alongside the top-level classifier.
 Then Fit Our Model using mini-batch Sochastic Gradient Descent using rmsprop optimizer.
-But Last two method require High Memory Resource Requirment and due to limited resource i cant run them.
-
-But i am sending the code and if you run this code you get good result.
+But Last two method require High Memory Resource Requirment and need gpu to run.
